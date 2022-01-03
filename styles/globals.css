@@ -1,0 +1,80 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.icon-usuario{
+  font-size: 30px;
+}
+.col-3 span{
+  padding-left: 1rem;
+}
+.btn-mostrar{
+  cursor: pointer;
+}
+.icono{
+  font-size: 25px;
+}
+.icono-documentos{
+  font-size: 28px;
+}
+.portada{
+  background-image: url('/public/imagenes/portada.jpg');
+  height: 100px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.relieve{
+  border-radius: 6px;
+  background: #f5fcff;
+  box-shadow:  22px 22px 62px #bfc5c7,
+               -22px -22px 62px #ffffff;
+}
+.tarjeta:hover{
+  color: white;
+  border-radius: 6px;
+background: linear-gradient(145deg, #e5d7ff, #c1b5df);
+box-shadow:  22px 22px 62px #a79dc1,
+             -22px -22px 62px #fff5ff;
+}
+@media print{
+  .no-pdf{
+    display: none !important;
+  }
+  .dia-imprimir{
+    font-size: 12px;
+  }
+}
+
+.pdf{
+  position: relative;
+}
+.imagen-pdf{
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  opacity: 0.1;
+  top:50%;
+  left: 30%;
+}
+.listado-informacion{
+  border: 1px solid red;
+  padding-bottom: 1rem;
+  padding-left: 5rem;
+}
+.listado-informacion li{
+  list-style: none;
+  margin-top: 1rem;
+}

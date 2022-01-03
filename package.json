@@ -1,0 +1,29 @@
+{
+  "name": "3siteib",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "browser": {
+    "html-pdf": false
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^2.0.21",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.2",
+    "dotenv": "^10.0.0",
+    "firebase": "^9.6.1",
+    "html-pdf": "^3.0.1",
+    "moment": "^2.29.1",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.4.1",
+    "eslint-config-next": "12.0.7"
+  }
+}
